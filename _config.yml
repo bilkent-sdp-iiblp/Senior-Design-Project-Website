@@ -1,0 +1,13 @@
+title: "My Project"
+description: "Static site for my project"
+url: ""           # set to "https://<username>.github.io/<repo>" after enabling Pages
+baseurl: ""       # set to "/<repo>" if this is NOT a user/organization site
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins: []       # keep empty to avoid plugin-native deps
+
+# Minima theme options
+show_excerpts: true
