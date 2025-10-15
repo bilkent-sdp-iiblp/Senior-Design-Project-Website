@@ -3,7 +3,6 @@ description: "Static site for our Senior Design Project"
 
 # Your user/organization root (no trailing slash)
 url: "https://bilkent-sdp.github.io"
-# Your **website repo** name, starting with a slash
 # Final site URL will be: https://simay-uygur.github.io/senior-design-site/
 baseurl: "/senior-design-site/inquiryBasedLearningPlatform"
 

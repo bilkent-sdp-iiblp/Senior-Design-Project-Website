@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,18 +21,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Configure Pages (provides base_path output)
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"  # or "3.2"
+          ruby-version: "3.3"
           bundler-cache: true
 
+      - name: Install dependencies
+        run: bundle install --without development
+
       - name: Build with Jekyll
-        run: |
-          bundle install
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
         env:
           JEKYLL_ENV: production
+        run: |
+          BASE_PATH="${{ steps.pages.outputs.base_path }}"
+          if [ -z "$BASE_PATH" ]; then
+            bundle exec jekyll build
+          else
+            bundle exec jekyll build --baseurl "$BASE_PATH"
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
