@@ -2,9 +2,9 @@ title: "Immersive Inquiry Based Learning Platform"
 description: "Static site for our Senior Design Project"
 
 # Your user/organization root (no trailing slash)
-url: "https://bilkent-sdp.github.io"
+url: "https://bilkent-sdp-iiblp.github.io"
 # Final site URL will be: https://simay-uygur.github.io/senior-design-site/
-baseurl: "/senior-design-site/inquiryBasedLearningPlatform"
+baseurl: "/Senior-Design-Project-Website/"
 
 theme: minima
 
