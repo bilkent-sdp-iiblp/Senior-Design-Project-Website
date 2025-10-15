@@ -9,7 +9,8 @@ permalink: /about/
 We’re a group of motivated individuals working together to bring this project to life.
 
 ### Ahmet Deniz Gelir   
-
+- 🐙 [GitHub](https://github.com/adenizgelir0)  
+- ✉️ adenizgelir@protonmail.com
 <!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
 
 ---
