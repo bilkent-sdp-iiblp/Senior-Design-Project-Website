@@ -1,13 +1,31 @@
-title: "My Project"
-description: "Static site for my project"
-url: ""           # set to "https://<username>.github.io/<repo>" after enabling Pages
-baseurl: ""       # set to "/<repo>" if this is NOT a user/organization site
+title: "Immersive Inquiry Based Learning Platform"
+description: "Static site for our Senior Design Project"
+
+# Your user/organization root (no trailing slash)
+url: "https://bilkent-sdp.github.io"
+# Your **website repo** name, starting with a slash
+# Final site URL will be: https://simay-uygur.github.io/senior-design-site/
+baseurl: "/senior-design-site/inquiryBasedLearningPlatform"
 
 theme: minima
 
 # Build settings
 markdown: kramdown
-plugins: []       # keep empty to avoid plugin-native deps
+plugins: []
 
-# Minima theme options
-show_excerpts: true
+# Show some pages in the top navbar (make sure these files exist)
+header_pages:
+  - index.md
+  - about.md
+  
+
+# Optional: a /docs/ section for structured content in this website repo
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Minima’s social icons (point to your **project repo**)
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/simay-uygur/Immersive-Inquiry-Based-Learning-Platform" }
