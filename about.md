@@ -41,4 +41,3 @@ We’re a group of motivated individuals working together to bring this project 
 
 ## Useful Links
 
-- [Project GitHub Repository](https://github.com/simay-uygur/Immersive-Inquiry-Based-Learning-Platform)
