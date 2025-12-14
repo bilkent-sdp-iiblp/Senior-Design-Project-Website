@@ -1,0 +1,30 @@
+title: "Immersive Inquiry Based Learning Platform"
+description: "Static site for our Senior Design Project"
+
+# Your user/organization root (no trailing slash)
+url: "https://bilkent-sdp-iiblp.github.io"
+# Final site URL will be: https://simay-uygur.github.io/senior-design-site/
+baseurl: "/Senior-Design-Project-Website/"
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins: []
+
+# Show some pages in the top navbar (make sure these files exist)
+header_pages:
+  - index.md
+  - about.md
+  
+
+# Optional: a /docs/ section for structured content in this website repo
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Minima's social icons (point to your **project repo**)
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/ubien/ubien" }
