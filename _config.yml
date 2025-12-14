@@ -24,7 +24,7 @@ collections:
     output: true
     permalink: /docs/:path/
 
-# Minima’s social icons (point to your **project repo**)
+# Minima's social icons (point to your **project repo**)
 minima:
   social_links:
-    - { platform: github, user_url: "https://github.com/simay-uygur/Immersive-Inquiry-Based-Learning-Platform" }
+    - { platform: github, user_url: "https://github.com/ubien/ubien" }
