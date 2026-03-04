@@ -64,7 +64,8 @@ Project reports and documentation in PDF format.
 
 - [T2521 Project Specification Document]({{ site.baseurl }}/assets/pdfs/T2521%20Project%20Specification%20Document.pdf)
 
----
+- [T2521 Analysis and Requirements Report]({{ site.baseurl }}/assets/pdfs/T2521%20Analysis%20and%20Requirements%20Report.pdf)
+
 
 ## 🔗 Useful Links
 
