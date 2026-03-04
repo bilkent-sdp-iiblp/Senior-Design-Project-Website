@@ -1,181 +1,201 @@
 ---
 ---
 
-@import "minima";
+/* Custom modern UI enhancements */
+/* Works with jekyll-theme-minimal and other themes */
 
 .rss-subscribe {
   display: none;
 }
 
-/* Professional Styling Enhancements */
-
-/* Typography - Target all content areas */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  line-height: 1.7 !important;
-  color: #333 !important;
+/* Enhanced Professional Styling */
+* { 
+  box-sizing: border-box !important; 
 }
 
-/* Headings - Target all possible locations */
-main h1,
-main h2,
-main h3,
-main h4,
-main h5,
-main h6,
-.page-content h1,
-.page-content h2,
-.page-content h3,
-.page-content h4,
-.page-content h5,
-.page-content h6,
-.wrapper h1,
-.wrapper h2,
-.wrapper h3,
-.wrapper h4,
-.wrapper h5,
-.wrapper h6 {
-  font-weight: 600 !important;
-  line-height: 1.3 !important;
-  margin-top: 2em !important;
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important; 
+  line-height: 1.7 !important; 
+  color: #2c3e50 !important;
+  background-color: #ffffff !important;
+}
+
+/* Headings */
+main h1, main h2, main h3, main h4, main h5, main h6,
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6,
+.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6 { 
+  font-weight: 600 !important; 
+  color: #1a1a1a !important; 
+  margin-top: 2em !important; 
+}
+
+main h1, .page-content h1, .wrapper h1 { 
+  font-size: 2.5em !important; 
+  border-bottom: 3px solid #667eea !important; 
+  padding-bottom: 0.3em !important; 
   margin-bottom: 1em !important;
+}
+
+main h2, .page-content h2, .wrapper h2 { 
+  font-size: 2em !important; 
+  border-bottom: 2px solid #e0e0e0 !important; 
+  padding-bottom: 0.3em !important; 
+  margin-top: 2.5em !important; 
   color: #2c3e50 !important;
 }
 
-main h1,
-.page-content h1,
-.wrapper h1 {
-  font-size: 2.5em !important;
-  border-bottom: 3px solid #3498db !important;
-  padding-bottom: 0.3em !important;
+main h3, .page-content h3, .wrapper h3 { 
+  font-size: 1.5em !important; 
+  color: #34495e !important; 
+  margin-top: 2em !important; 
+  font-weight: 600 !important;
 }
 
-main h2,
-.page-content h2,
-.wrapper h2 {
-  font-size: 2em !important;
-  border-bottom: 2px solid #ecf0f1 !important;
-  padding-bottom: 0.3em !important;
-  margin-top: 2.5em !important;
+/* Hero Section */
+.hero-section { 
+  text-align: center !important; 
+  padding: 4em 2em !important; 
+  margin: 2em 0 3em 0 !important; 
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important; 
+  color: white !important; 
+  border-radius: 12px !important; 
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3) !important; 
 }
 
-main h3,
-.page-content h3,
-.wrapper h3 {
-  font-size: 1.5em !important;
-  color: #34495e !important;
-  margin-top: 2em !important;
+.hero-section h1, .hero-section .hero-title { 
+  font-size: 2.8em !important; 
+  font-weight: 700 !important; 
+  margin-bottom: 0.5em !important; 
+  border: none !important; 
+  color: white !important; 
+  padding-bottom: 0 !important; 
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
 }
 
-/* Hero Section - Must be very specific */
-.hero-section {
-  text-align: center !important;
-  padding: 3em 2em !important;
-  margin: 2em 0 3em 0 !important;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-  color: white !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-.hero-section .hero-title,
-.hero-section h1 {
-  font-size: 2.8em !important;
-  font-weight: 700 !important;
-  margin-bottom: 0.5em !important;
-  border: none !important;
-  color: white !important;
-  padding-bottom: 0 !important;
-}
-
-.hero-section .hero-subtitle,
-.hero-section p {
-  font-size: 1.3em !important;
-  font-weight: 300 !important;
-  opacity: 0.95 !important;
-  margin: 0 !important;
-  color: white !important;
+.hero-section p, .hero-section .hero-subtitle { 
+  font-size: 1.3em !important; 
+  font-weight: 300 !important; 
+  opacity: 0.95 !important; 
+  margin: 0 !important; 
+  color: white !important; 
 }
 
 /* CTA Section */
-.cta-section {
-  background-color: #f8f9fa !important;
-  padding: 1.5em !important;
-  border-radius: 6px !important;
-  margin: 2em 0 !important;
-  border-left: 4px solid #3498db !important;
-  text-align: center !important;
+.cta-section { 
+  background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%) !important; 
+  padding: 2em !important; 
+  border-radius: 8px !important; 
+  margin: 3em 0 !important; 
+  border-left: 5px solid #667eea !important; 
+  text-align: center !important; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
 }
 
-.cta-section a {
-  font-weight: 600 !important;
-  color: #3498db !important;
+.cta-section a { 
+  font-weight: 600 !important; 
+  color: #667eea !important; 
   text-decoration: none !important;
+  transition: all 0.3s ease !important;
 }
 
-.cta-section a:hover {
-  text-decoration: underline !important;
-  color: #2980b9 !important;
-}
-
-/* Links - Target all links */
-main a,
-.page-content a,
-.wrapper a {
-  color: #3498db !important;
-  text-decoration: none !important;
-  transition: color 0.2s ease !important;
-}
-
-main a:hover,
-.page-content a:hover,
-.wrapper a:hover {
-  color: #2980b9 !important;
+.cta-section a:hover { 
+  color: #5568d3 !important; 
   text-decoration: underline !important;
 }
 
-/* Lists */
-main ul,
-main ol,
-.page-content ul,
-.page-content ol,
-.wrapper ul,
-.wrapper ol {
-  margin-left: 1.5em !important;
-  margin-bottom: 1.5em !important;
+/* Links */
+main a, .page-content a, .wrapper a { 
+  color: #667eea !important; 
+  transition: all 0.2s ease !important; 
+  text-decoration: none !important;
 }
 
-main li,
-.page-content li,
-.wrapper li {
-  margin-bottom: 0.5em !important;
-  line-height: 1.6 !important;
+main a:hover, .page-content a:hover, .wrapper a:hover { 
+  color: #5568d3 !important; 
+  text-decoration: underline !important;
 }
 
 /* Paragraphs */
-main p,
-.page-content p,
-.wrapper p {
-  margin-bottom: 1.2em !important;
-  line-height: 1.7 !important;
+main p, .page-content p, .wrapper p { 
+  margin-bottom: 1.3em !important; 
+  line-height: 1.8 !important; 
+  color: #4a4a4a !important;
 }
 
-/* Code blocks */
-pre {
-  background-color: #f4f4f4 !important;
-  border: 1px solid #ddd !important;
-  border-radius: 4px !important;
-  padding: 1em !important;
-  overflow-x: auto !important;
+/* Lists */
+main ul, main ol, .page-content ul, .page-content ol, .wrapper ul, .wrapper ol { 
+  margin-left: 1.5em !important; 
+  margin-bottom: 1.5em !important;
 }
 
-code {
-  background-color: #f4f4f4 !important;
-  padding: 0.2em 0.4em !important;
-  border-radius: 3px !important;
-  font-size: 0.9em !important;
+main li, .page-content li, .wrapper li { 
+  margin-bottom: 0.8em !important; 
+  line-height: 1.6 !important;
+  padding-left: 0.5em !important;
+}
+
+strong { 
+  color: #2c3e50 !important; 
+  font-weight: 600 !important;
+}
+
+/* Wrapper */
+.wrapper { 
+  max-width: 1200px !important; 
+  margin: 0 auto !important; 
+  padding: 0 2em !important;
+}
+
+/* Post List Styling */
+.post-list { 
+  list-style: none !important; 
+  padding: 0 !important; 
+  margin: 2em 0 !important;
+}
+
+.post-list li { 
+  background: #ffffff !important; 
+  border: 1px solid #e0e0e0 !important; 
+  border-radius: 8px !important; 
+  padding: 1.5em !important; 
+  margin-bottom: 1.5em !important; 
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+.post-list li:hover { 
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15) !important; 
+  transform: translateY(-2px) !important;
+  border-color: #667eea !important;
+}
+
+.post-list h3 { 
+  margin-top: 0 !important; 
+  margin-bottom: 0.5em !important;
+}
+
+.post-list .post-meta { 
+  color: #888 !important; 
+  font-size: 0.9em !important; 
+  margin-bottom: 0.5em !important;
+}
+
+.post-list a { 
+  color: #2c3e50 !important; 
+  font-weight: 600 !important;
+}
+
+.post-list a:hover { 
+  color: #667eea !important;
+}
+
+.post-list-heading {
+  display: none !important;
+}
+
+/* Page Heading */
+.page-heading { 
+  display: none !important;
 }
 
 /* Site Title */
@@ -184,52 +204,253 @@ code {
   font-weight: 600 !important;
 }
 
-/* Page Content wrapper */
-.page-content {
-  padding: 2em 0 !important;
-}
-
-.wrapper {
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 0 1em !important;
-}
-
-/* Horizontal rules */
-hr {
-  border: none !important;
-  border-top: 1px solid #ecf0f1 !important;
-  margin: 2em 0 !important;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero-section .hero-title,
-  .hero-section h1 {
-    font-size: 2em !important;
+  .hero-section { 
+    padding: 2.5em 1.5em !important; 
   }
   
-  .hero-section .hero-subtitle,
-  .hero-section p {
-    font-size: 1.1em !important;
+  .hero-section h1, .hero-section .hero-title { 
+    font-size: 2em !important; 
   }
   
-  main h1,
-  .page-content h1,
-  .wrapper h1 {
-    font-size: 2em !important;
+  .hero-section p, .hero-section .hero-subtitle { 
+    font-size: 1.1em !important; 
   }
   
-  main h2,
-  .page-content h2,
-  .wrapper h2 {
-    font-size: 1.6em !important;
+  main h1, .page-content h1, .wrapper h1 { 
+    font-size: 2em !important; 
+  }
+  
+  main h2, .page-content h2, .wrapper h2 { 
+    font-size: 1.6em !important; 
+  }
+  
+  .wrapper { 
+    padding: 0 1em !important; 
   }
 }
 
-/* Feature sections spacing */
-main h3 + p,
-.page-content h3 + p,
-.wrapper h3 + p {
-  margin-bottom: 1.5em !important;
+/* ============================================
+   MODERN UI ENHANCEMENTS FOR MINIMAL MISTAKES
+   ============================================ */
+
+/* Smooth animations */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Enhanced Navigation */
+.masthead {
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08) !important;
+  border-bottom: 1px solid rgba(102, 126, 234, 0.1) !important;
+}
+
+.greedy-nav .visible-links a {
+  padding: 0.5em 1em !important;
+  border-radius: 6px !important;
+  transition: all 0.3s ease !important;
+  font-weight: 500 !important;
+}
+
+.greedy-nav .visible-links a:hover {
+  background: rgba(102, 126, 234, 0.1) !important;
+  color: #667eea !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Enhanced Hero Section */
+.hero-section {
+  animation: fadeInUp 0.8s ease-out !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Feature Cards Enhancement */
+main h3 {
+  position: relative !important;
+  padding-left: 1.5em !important;
+}
+
+main h3::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0.3em !important;
+  width: 4px !important;
+  height: 1.2em !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-radius: 2px !important;
+}
+
+/* Enhanced List Items */
+main ul li {
+  position: relative !important;
+  padding-left: 1.5em !important;
+}
+
+main ul li::marker {
+  color: #667eea !important;
+  font-weight: bold !important;
+}
+
+/* Technology Stack Cards */
+main ul li strong {
+  display: inline-block !important;
+  padding: 0.3em 0.8em !important;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%) !important;
+  border-radius: 6px !important;
+  margin-right: 0.5em !important;
+  border-left: 3px solid #667eea !important;
+}
+
+/* Enhanced Links */
+main a:not(.btn):not(.page__taxonomy-item):not(.social-icons a) {
+  position: relative !important;
+  padding: 0.2em 0 !important;
+  background-image: linear-gradient(to right, #667eea, #764ba2) !important;
+  background-size: 0% 2px !important;
+  background-repeat: no-repeat !important;
+  background-position: left bottom !important;
+  transition: background-size 0.3s ease !important;
+}
+
+main a:not(.btn):not(.page__taxonomy-item):not(.social-icons a):hover {
+  background-size: 100% 2px !important;
+  color: #667eea !important;
+}
+
+/* External Links Styling */
+main a[href^="http"]:not([href*="github.io"]):not(.btn),
+main a[href^="mailto"]:not(.btn) {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5em !important;
+  padding: 0.5em 1.2em !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+main a[href^="http"]:not([href*="github.io"]):not(.btn):hover,
+main a[href^="mailto"]:not(.btn):hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4) !important;
+  background: linear-gradient(135deg, #5568d3 0%, #6a3d8f 100%) !important;
+}
+
+/* Enhanced Page Content */
+.page__content {
+  animation: fadeIn 0.6s ease-in !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Team Member Cards (About Page) */
+.page__content h2 + h3 {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%) !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 2em !important;
+  border-radius: 12px !important;
+  margin: 2em 0 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+  border-left: 4px solid #667eea !important;
+}
+
+.page__content h2 + h3:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15) !important;
+  border-left-color: #764ba2 !important;
+}
+
+/* Enhanced Footer */
+.page__footer {
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%) !important;
+  border-top: 1px solid #e0e0e0 !important;
+  padding: 3em 0 !important;
+  margin-top: 4em !important;
+}
+
+/* Code blocks */
+code {
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%) !important;
+  padding: 0.2em 0.6em !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+  color: #667eea !important;
+  border: 1px solid rgba(102, 126, 234, 0.2) !important;
+}
+
+/* Enhanced CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%) !important;
+  border: 2px solid rgba(102, 126, 234, 0.2) !important;
+  border-radius: 12px !important;
+  padding: 2.5em !important;
+  margin: 3em 0 !important;
+  text-align: center !important;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+.cta-section:hover {
+  border-color: #667eea !important;
+  box-shadow: 0 6px 24px rgba(102, 126, 234, 0.2) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Post Cards Enhancement */
+.archive__item {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+}
+
+.archive__item:hover {
+  transform: translateY(-4px) !important;
+}
+
+/* Smooth scroll indicator */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5568d3 0%, #6a3d8f 100%);
 }
