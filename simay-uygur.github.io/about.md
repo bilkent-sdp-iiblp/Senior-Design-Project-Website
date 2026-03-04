@@ -11,7 +11,7 @@ We are a dedicated team of computer science students from Bilkent University, wo
 ### Ahmet Deniz Gelir
 **Team Member**
 
-- 🐙 [GitHub Profile](https://github.com/adenizgelir0)  
+-  [GitHub Profile](https://github.com/adenizgelir0)  
 - ✉️ [Email](mailto:adenizgelir@protonmail.com)
 <!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
 
@@ -19,14 +19,14 @@ We are a dedicated team of computer science students from Bilkent University, wo
 ### Efe Can Tatar
 **Team Member**
 
-- 🐙 [GitHub Profile](https://github.com/EfeCanGH)
+-  [GitHub Profile](https://github.com/EfeCanGH)
 <!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
 
 ---
 ### Kemal Onur Özkan
 **Team Member**
 
-- 🐙 [GitHub Profile](https://github.com/KOnurOzkan)
+-  [GitHub Profile](https://github.com/KOnurOzkan)
 <!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
 
 ---
@@ -34,7 +34,7 @@ We are a dedicated team of computer science students from Bilkent University, wo
 ### Eren Uslu
 **Team Member**
 
-- 🐙 [GitHub Profile](https://github.com/erenusluu)
+-  [GitHub Profile](https://github.com/erenusluu)
 <!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
 
 ---
@@ -42,7 +42,7 @@ We are a dedicated team of computer science students from Bilkent University, wo
 ### Simay Uygur
 **Team Member**
 
-- 🐙 [GitHub Profile](https://github.com/simayuygur)  
+-  [GitHub Profile](https://github.com/simayuygur)  
 - ✉️ [Email](mailto:simayuygur09@gmail.com)
 <!-- <img src="/assets/images/simay.jpg" alt="Simay Uygur" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
 
@@ -50,7 +50,7 @@ We are a dedicated team of computer science students from Bilkent University, wo
 
 ---
 
-## 📚 Project Documentation
+## Project Documentation
 
 ### Logbooks
 
@@ -69,5 +69,5 @@ Project reports and documentation in PDF format.
 
 ## 🔗 Useful Links
 
-- 🐙 [Main Project Repository](https://github.com/ubien/ubien) *(Private repository)*
+-  [Main Project Repository](https://github.com/ubien/ubien) *(Private repository)*
 

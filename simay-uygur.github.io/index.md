@@ -16,16 +16,16 @@ Our platform bridges this gap by leveraging Large Language Models (LLMs) to crea
 
 ## Key Features
 
-### 🤖 AI-Powered Instruction
+### AI-Powered Instruction
 Our LLM-based instructor adapts to each student's learning pace and style, providing personalized guidance through the inquiry process.
 
-### 🎭 Animated Instructor Avatars
+### Animated Instructor Avatars
 Experience learning with expressive animated instructors featuring:
 - **Synchronized synthesized speech** for natural communication
 - **Facial expressions and gestures** that convey personality
 - **Dynamic posture and gaze** for engaging interactions
 
-### 📚 Interactive Learning Experience
+### Interactive Learning Experience
 Students learn through discovery, guided by an AI instructor that makes the experience feel as immersive as learning from a real teacher in a classroom setting.
 
 ## Technology Stack
