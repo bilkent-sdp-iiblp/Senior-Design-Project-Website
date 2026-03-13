@@ -30,11 +30,14 @@ Students learn through discovery, guided by an AI instructor that makes the expe
 
 ## Technology Stack
 
-Our platform combines cutting-edge technologies:
-- **Large Language Models** for intelligent instruction
-- **Character Animation Systems** for immersive interactions
-- **Speech Synthesis** for natural communication
-- **Web-based Platform** for accessibility
+Our platform combines a modern backend with AI and web technologies:
+- **Go** for the core backend services and orchestration
+- **PostgreSQL 16** as the primary relational database
+- **Docker** for containerized deployment and reproducible environments
+- **ChatGPT API** for conversational guidance and question answering
+- **Large Language Models** for intelligent instruction and inquiry generation
+- **Character Animation Systems** and **speech synthesis** for immersive interactions
+- **Web-based frontend** for accessible delivery in the browser
 
 ---
 
@@ -44,5 +47,21 @@ Our platform combines cutting-edge technologies:
 
 ## Latest Updates
 
-
+<ul class="post-list">
+  {% for post in site.posts limit:3 %}
+  <li>
+    <h3>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+    <p class="post-meta">
+      {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+    <p>
+      {{ post.excerpt | strip_html | truncate: 160 }}
+    </p>
+  </li>
+  {% endfor %}
+</ul>
 
