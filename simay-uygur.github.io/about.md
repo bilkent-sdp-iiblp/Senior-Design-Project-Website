@@ -1,54 +1,40 @@
 ---
 layout: default
-title: About Us
+title: About and Documents
 permalink: /about/
 ---
 
-## 👥 Meet the Team
+## Team
 
-We are a dedicated team of computer science students from Bilkent University, working together to revolutionize online education through our Senior Design Project.
+We are a computer science senior design team from Bilkent University working on Ubien, an AI-supported platform for inquiry-based online learning.
 
-### Ahmet Deniz Gelir
-**Team Member**
-
--  [GitHub Profile](https://github.com/adenizgelir0)  
-- ✉️ [Email](mailto:adenizgelir@protonmail.com)
-<!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
-
----
-### Efe Can Tatar
-**Team Member**
-
--  [GitHub Profile](https://github.com/EfeCanGH)
-<!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
-
----
-### Kemal Onur Özkan
-**Team Member**
-
--  [GitHub Profile](https://github.com/KOnurOzkan)
-<!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
-
----
-
-### Eren Uslu
-**Team Member**
-
--  [GitHub Profile](https://github.com/erenusluu)
-<!-- <img src="/assets/images/sukru.jpg" alt="Şükrü Eren" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
-
----
-
-### Simay Uygur
-**Team Member**
-
--  [GitHub Profile](https://github.com/simayuygur)  
-- ✉️ [Email](mailto:simayuygur09@gmail.com)
-<!-- <img src="/assets/images/simay.jpg" alt="Simay Uygur" width="150" style="border-radius: 50%; margin-top: 10px;"> -->
-
----
-
----
+<div class="team-grid">
+  <article class="team-card">
+    <h3>Ahmet Deniz Gelir</h3>
+    <p class="role">Team Member</p>
+    <p><a href="https://github.com/adenizgelir0">GitHub Profile</a> <a href="mailto:adenizgelir@protonmail.com">Email</a></p>
+  </article>
+  <article class="team-card">
+    <h3>Efe Can Tatar</h3>
+    <p class="role">Team Member</p>
+    <p><a href="https://github.com/EfeCanGH">GitHub Profile</a></p>
+  </article>
+  <article class="team-card">
+    <h3>Kemal Onur Özkan</h3>
+    <p class="role">Team Member</p>
+    <p><a href="https://github.com/KOnurOzkan">GitHub Profile</a></p>
+  </article>
+  <article class="team-card">
+    <h3>Eren Uslu</h3>
+    <p class="role">Team Member</p>
+    <p><a href="https://github.com/erenusluu">GitHub Profile</a></p>
+  </article>
+  <article class="team-card">
+    <h3>Simay Uygur</h3>
+    <p class="role">Team Member</p>
+    <p><a href="https://github.com/simayuygur">GitHub Profile</a> <a href="mailto:simayuygur09@gmail.com">Email</a></p>
+  </article>
+</div>
 
 ## Project Documentation
 
@@ -56,19 +42,20 @@ We are a dedicated team of computer science students from Bilkent University, wo
 
 Team member logbooks documenting project progress and individual contributions.
 
-- **Simay Uygur**: [View Logbook](https://docs.google.com/document/d/1uCHCDzfFQB-rBGwu6WHoa4xogx8rFvQyNSisrgAtmCA/edit?usp=sharing)
+- **Simay Uygur:** [View Logbook](https://docs.google.com/document/d/1uCHCDzfFQB-rBGwu6WHoa4xogx8rFvQyNSisrgAtmCA/edit?usp=sharing)
 
-### 📄 Reports & Documents
+### Reports and Documents
 
 Project reports and documentation in PDF format.
 
-- [T2521 Project Specification Document]({{ site.baseurl }}/assets/pdfs/T2521%20Project%20Specification%20Document.pdf)
+<ul class="document-list">
+  <li><a href="{{ '/assets/pdfs/T2521%20Project%20Specification%20Document.pdf' | relative_url }}">T2521 Project Specification Document</a><span>PDF</span></li>
+  <li><a href="{{ '/assets/pdfs/T2521%20Analysis%20and%20Requirements%20Report.pdf' | relative_url }}">T2521 Analysis and Requirements Report</a><span>PDF</span></li>
+  <li><a href="{{ '/assets/pdfs/T2521%20Detailed%20Design%20Report.pdf' | relative_url }}">T2521 Detailed Design Report</a><span>PDF</span></li>
+  <li class="document-pending"><strong>Final Report</strong><span>Coming soon</span><code>assets/pdfs/final.pdf</code></li>
+  <li class="document-pending"><strong>Demo Presentation Slides</strong><span>Coming soon</span><code>assets/pdfs/demo-presentation.pdf</code></li>
+</ul>
 
-- [T2521 Analysis and Requirements Report]({{ site.baseurl }}/assets/pdfs/T2521%20Analysis%20and%20Requirements%20Report.pdf)
+## Useful Links
 
-- [T2521 Detailed Design Report]({{ site.baseurl }}/assets/pdfs/T2521%20Detailed%20Design%20Report.pdf)
-
-## 🔗 Useful Links
-
--  [Main Project Repository](https://github.com/ubien/ubien) *(Private repository)*
-
+- [Main Project Repository](https://github.com/ubien/ubien) *(private repository)*

@@ -1,8 +1,10 @@
-# Semior Design Project Website
-Website for our CS-491/492 Senior Design Project Course 
+# Senior Design Project Website
 
+Website for the CS 491/492 Senior Design Project, Ubien.
 
-to run locally 
+## Run Locally
 
- bundle install
- bundle exec jekyll serve
+```sh
+bundle install
+bundle exec jekyll serve
+```
