@@ -52,8 +52,8 @@ Project reports and documentation in PDF format.
   <li><a href="{{ '/assets/pdfs/T2521%20Project%20Specification%20Document.pdf' | relative_url }}">T2521 Project Specification Document</a><span>PDF</span></li>
   <li><a href="{{ '/assets/pdfs/T2521%20Analysis%20and%20Requirements%20Report.pdf' | relative_url }}">T2521 Analysis and Requirements Report</a><span>PDF</span></li>
   <li><a href="{{ '/assets/pdfs/T2521%20Detailed%20Design%20Report.pdf' | relative_url }}">T2521 Detailed Design Report</a><span>PDF</span></li>
-  <li class="document-pending"><strong>Final Report</strong><span>Coming soon</span><code>assets/pdfs/final.pdf</code></li>
-  <li class="document-pending"><strong>Demo Presentation Slides</strong><span>Coming soon</span><code>assets/pdfs/demo-presentation.pdf</code></li>
+  <li><a href="{{ '/assets/pdfs/T2521%20Final%20Report.pdf' | relative_url }}">T2521 Final Report</a><span>PDF</span></li>
+  <li><a href="{{ '/assets/pdfs/slides.pdf' | relative_url }}">Demo Presentation Slides</a><span>PDF</span></li>
 </ul>
 
 ## Useful Links
