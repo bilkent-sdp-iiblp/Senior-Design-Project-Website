@@ -6,11 +6,15 @@ permalink: /demo/
 
 ## Demo Video
 
-<div class="demo-placeholder" aria-label="Reserved demo video area">
-  <div>
-    <strong>Demo video will be added here.</strong>
-    <span>Reserved path: <code>assets/videos/demo.mp4</code></span>
-  </div>
+<div style="position: relative; width: 100%; max-width: 960px; margin: 1rem auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
+  <iframe
+    src="https://www.youtube.com/embed/3bYy5aZNq_Q"
+    title="Demo Video"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
 </div>
 
 ## Pipeline Overview
